@@ -5,7 +5,7 @@ Load po files for use with `ngx-translate`
 
  ```
 npm i @ngx-translate/core --save
-npm i @biesbjerg/ngx-translate-po-http-loader --save
+npm i @flexys/ngx-translate-po-http-loader --save
  ```
 
 ## Usage:
@@ -13,7 +13,7 @@ npm i @biesbjerg/ngx-translate-po-http-loader --save
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslatePoHttpLoader } from '@biesbjerg/ngx-translate-po-http-loader';
+import { TranslatePoHttpLoader, MultiTranslatePoHttpLoader } from '@flexys/ngx-translate-po-http-loader';
 
 export function createTranslateLoader(http: HttpClient) {
 	return new TranslatePoHttpLoader(http, 'assets/i18n', '.po');
