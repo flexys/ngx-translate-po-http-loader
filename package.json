@@ -1,6 +1,6 @@
 {
-  "name": "@biesbjerg/ngx-translate-po-http-loader",
-  "version": "3.1.0",
+  "name": "@flexys/ngx-translate-po-http-loader",
+  "version": "1.0.0",
   "description": "Load po files for use with ngx-translate",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -15,15 +15,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/biesbjerg/ngx-translate-po-http-loader.git"
+    "url": "https://github.com/sergiojoker11/ngx-translate-po-http-loader.git"
   },
   "keywords": [],
-  "author": "Kim Biesbjerg <kim@biesbjerg.com>",
+  "author": "Sergio Martin Sanchez <sergio.martin@flexys.co.uk>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/biesbjerg/ngx-translate-po-http-loader/issues"
+    "url": "https://github.com/sergiojoker11/ngx-translate-po-http-loader/issues"
   },
-  "homepage": "https://github.com/biesbjerg/ngx-translate-po-http-loader",
+  "homepage": "https://github.com/sergiojoker11/ngx-translate-po-http-loader",
   "engines": {
     "node": ">=4.1.1"
   },
